@@ -12,14 +12,14 @@ npm install vill-vuex --save-dev
 
 ### register the plugins on the vue project in the entry file (main.js)
 
-```
+```bash
 import vuex from 'vill-vuex'
 Vue.use(vuex);
 ```
 
 ### on the store file ,you can use it by the follow example
 
-```
+```bash
 import Vue from "vue";
 import Vuex from "../util/index";
 Vue.use(Vuex);
@@ -44,7 +44,7 @@ export default new Vuex.Store({
 
 ```
 ### in the main entry file ,you need import store file to vuejs options
-```
+```bash
 import Vue from 'vue'
 import App from './App'
 import store from './store/index';
